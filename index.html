@@ -1,498 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Responsive Event Organizer Website Design </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>S P CRAFTWOOD - Premium Wood Crafting</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Font / Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
-
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    
-<!-- header section starts  -->
+  <!-- Header -->
+  <header class="header" role="banner">
+    <a href="#" class="logo" aria-label="S P CRAFTWOOD - Home">
+      <div class="logo-container">
+        <img src="images/IMG_6202.JPG" alt="S P CRAFTWOOD Logo" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-brand">S P</span>
+          <span class="logo-name">CRAFTWOOD</span>
+        </div>
+      </div>
+    </a>
 
-<header class="header">
-
-    <a href="#" class="logo"><span>e</span>vento</a>
-
-    <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#service">service</a>
-        <a href="#about">about</a>
-        <a href="#gallery">gallery</a>
-        <a href="#price">price</a>
-        <a href="#review">review</a>
-        <a href="#contact">contact</a>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <a href="#home">home</a>
+      <a href="#service">service</a>
+      <a href="#about">about</a>
+      <a href="#gallery">gallery</a>
+      <a href="#materials">materials</a>
+      <a href="#process">process</a>
+      <a href="#review">review</a>
+      <a href="#contact">contact</a>
     </nav>
 
-    <div id="menu-bars" class="fas fa-bars"></div>
+    <button id="menu-bars" aria-expanded="false" aria-label="Toggle menu" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
 
-</header>
+  <!-- Home -->
+  <section class="home" id="home" aria-label="Home">
+    <div class="home-inner">
+      <div class="content">
+        <h1>Handcrafted Excellence <span>— Premium Wood Artistry</span></h1>
+        <p class="lead">Transform your space with our exquisite handcrafted wood furniture and decorative pieces — custom designs, premium materials & timeless craftsmanship.</p>
+        <div class="cta">
+        
 
-<!-- header section ends -->
+          <a class="btn primary" href="https://wa.me/+918104316752" target="_blank">
+  <i class="fab fa-whatsapp"></i> Contact Us
+</a>
 
-<!-- home section starts  -->
+<a class="btn primary" href="https://www.instagram.com/sp_craftwood/" target="_blank">
+  <i class="fab fa-instagram"></i> Instagram
+</a>
 
-<section class="home" id="home">
+<a class="btn primary" href="https://www.google.com/maps?q=Kharghar+Sector+20+Plot+No+15+Navi+Mumbai+Maharashtra+410210" target="_blank">
+    <i class="fas fa-map-marker-alt"></i> Location
+  </a>
 
-    <div class="content">
-        <h3>its time to celebrate! the best <span> event organizers </span></h3>
-        <a href="#" class="btn">contact us</a>
-    </div>
 
-    <div class="swiper-container home-slider">
+        </div>
+      </div>
+    </br>
+
+      <div class="swiper-container home-slider" aria-hidden="true">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/slide-1.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/slide-2.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/slide-3.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/slide-4.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/slide-5.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/slide-6.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/slide-1.jpg" alt="Event 1" loading="lazy"></div>
+          <div class="swiper-slide"><img src="images/slide-2.jpg" alt="Event 2" loading="lazy"></div>
+          <div class="swiper-slide"><img src="images/slide-3.jpg" alt="Event 3" loading="lazy"></div>
+          <div class="swiper-slide"><img src="images/slide-4.jpg" alt="Event 4" loading="lazy"></div>
+          <div class="swiper-slide"><img src="images/slide-5.jpg" alt="Event 5" loading="lazy"></div>
+          <div class="swiper-slide"><img src="images/slide-6.jpg" alt="Event 6" loading="lazy"></div>
         </div>
+      </div>
     </div>
+  </section>
 
-</section>
-
-<!-- home section ends -->
-
-<!-- service section starts  -->
-
-<section class="service" id="service">
-
-    <h1 class="heading"> our <span>services</span> </h1>
-
+  <!-- Service -->
+  <section class="service" id="service">
+    <h2 class="heading animate-on-scroll">our <span>services</span></h2>
     <div class="box-container">
-
-        <div class="box">
-            <i class="fas fa-map-marker-alt"></i>
-            <h3>venue selection</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-envelope"></i>
-            <h3>invitation card</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-music"></i>
-            <h3>entertainment</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-utensils"></i>
-            <h3>food and drinks</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-photo-video"></i>
-            <h3>photos and videos</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-birthday-cake"></i>
-            <h3>custom food</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
-        </div>
-
+      <div class="box animate-scale">
+        <i class="fas fa-chair" aria-hidden="true"></i>
+        <h3>Custom Furniture</h3>
+        <p>Handcrafted tables, chairs, cabinets and storage solutions tailored to your space and style.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-home" aria-hidden="true"></i>
+        <h3>Home Décor</h3>
+        <p>Beautiful wall art, decorative panels, and accent pieces to enhance your interior design.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-tools" aria-hidden="true"></i>
+        <h3>Wood Restoration</h3>
+        <p>Expert restoration and refinishing services to bring old furniture back to life.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-palette" aria-hidden="true"></i>
+        <h3>Custom Carvings</h3>
+        <p>Intricate wood carvings and engravings for personalized decorative elements.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-cube" aria-hidden="true"></i>
+        <h3>Kitchen Accessories</h3>
+        <p>Cutting boards, serving trays, and kitchen organizers made from premium wood.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-gift" aria-hidden="true"></i>
+        <h3>Gift Items</h3>
+        <p>Unique handcrafted gifts including jewelry boxes, photo frames, and keepsakes.</p>
+      </div>
     </div>
+  </section>
 
-</section>
-
-<!-- service section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-<h1 class="heading"><span>about</span> us </h1>
-
-<div class="row">
-
-    <div class="image">
-        <img src="images/about-img.jpg" alt="">
+  <!-- About -->
+  <section class="about" id="about">
+    <h2 class="heading animate-on-scroll"><span>about</span> us</h2>
+    <div class="row">
+      <div class="image animate-left">
+        <img src="images/about-img.jpg" alt="About S P CRAFTWOOD" loading="lazy">
+      </div>
+      <div class="content animate-right">
+        <h3>We craft timeless pieces that tell your story</h3>
+        <p>With decades of experience in woodworking, our master craftsmen create exceptional pieces using traditional techniques and premium materials.</p>
+        <p>From custom furniture to decorative art, every piece is handcrafted with attention to detail and built to last generations.</p>
+        <a href="#contact" class="btn primary">Get a Quote</a>
+      </div>
     </div>
+  </section>
 
-    <div class="content">
-        <h3>we will give a very special celebration for you</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam labore fugiat ut esse perferendis perspiciatis provident dolores fuga in facilis culpa possimus, quia praesentium itaque, sapiente quasi harum rem asperiores.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero expedita incidunt provident quibusdam aut odit, numquam nesciunt similique nisi.</p>
-        <a href="#" class="btn">contact us</a>
+  <!-- Gallery -->
+  <section class="gallery" id="gallery">
+    <h2 class="heading animate-on-scroll">our <span>gallery</span></h2>
+    <div class="box-container" id="gallery-container">
+      <div class="box">
+        <img src="images/IMG_6202.JPG" alt="Wood Crafting 1" loading="lazy">
+        <h4 class="title">Custom Dining Table</h4>
+        <div class="icons">
+          <a href="#" aria-label="Like"><i class="fas fa-heart"></i></a>
+          <a href="#" aria-label="Share"><i class="fas fa-share"></i></a>
+          <a href="#" aria-label="View"><i class="fas fa-eye"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/g-2.jpg" alt="Wood Crafting 2" loading="lazy">
+        <h4 class="title">Handcrafted Chair</h4>
+        <div class="icons">
+          <a href="#" aria-label="Like"><i class="fas fa-heart"></i></a>
+          <a href="#" aria-label="Share"><i class="fas fa-share"></i></a>
+          <a href="#" aria-label="View"><i class="fas fa-eye"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/g-3.jpg" alt="Wood Crafting 3" loading="lazy">
+        <h4 class="title">Wooden Cabinet</h4>
+        <div class="icons">
+          <a href="#" aria-label="Like"><i class="fas fa-heart"></i></a>
+          <a href="#" aria-label="Share"><i class="fas fa-share"></i></a>
+          <a href="#" aria-label="View"><i class="fas fa-eye"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/g-4.jpg" alt="Wood Crafting 4" loading="lazy">
+        <h4 class="title">Decorative Panel</h4>
+        <div class="icons">
+          <a href="#" aria-label="Like"><i class="fas fa-heart"></i></a>
+          <a href="#" aria-label="Share"><i class="fas fa-share"></i></a>
+          <a href="#" aria-label="View"><i class="fas fa-eye"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/g-5.jpg" alt="Wood Crafting 5" loading="lazy">
+        <h4 class="title">Cutting Board</h4>
+        <div class="icons">
+          <a href="#" aria-label="Like"><i class="fas fa-heart"></i></a>
+          <a href="#" aria-label="Share"><i class="fas fa-share"></i></a>
+          <a href="#" aria-label="View"><i class="fas fa-eye"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/g-6.jpg" alt="Wood Crafting 6" loading="lazy">
+        <h4 class="title">Photo Frame</h4>
+        <div class="icons">
+          <a href="#" aria-label="Like"><i class="fas fa-heart"></i></a>
+          <a href="#" aria-label="Share"><i class="fas fa-share"></i></a>
+          <a href="#" aria-label="View"><i class="fas fa-eye"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/g-7.jpg" alt="Wood Crafting 7" loading="lazy">
+        <h4 class="title">Wooden Shelf</h4>
+        <div class="icons">
+          <a href="#" aria-label="Like"><i class="fas fa-heart"></i></a>
+          <a href="#" aria-label="Share"><i class="fas fa-share"></i></a>
+          <a href="#" aria-label="View"><i class="fas fa-eye"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/g-8.jpg" alt="Wood Crafting 8" loading="lazy">
+        <h4 class="title">Jewelry Box</h4>
+        <div class="icons">
+          <a href="#" aria-label="Like"><i class="fas fa-heart"></i></a>
+          <a href="#" aria-label="Share"><i class="fas fa-share"></i></a>
+          <a href="#" aria-label="View"><i class="fas fa-eye"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/g-9.jpg" alt="Wood Crafting 9" loading="lazy">
+        <h4 class="title">Serving Tray</h4>
+        <div class="icons">
+          <a href="#" aria-label="Like"><i class="fas fa-heart"></i></a>
+          <a href="#" aria-label="Share"><i class="fas fa-share"></i></a>
+          <a href="#" aria-label="View"><i class="fas fa-eye"></i></a>
+        </div>
+      </div>
     </div>
-
-</div>
-
-</section>
-
-<!-- about section ends -->
-
-<!-- gallery section starts  -->
-
-<section class="gallery" id="gallery">
-
-    <h1 class="heading">our <span>gallery</span></h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="images/g-1.jpg" alt="">
-            <h3 class="title">photos and events</h3>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/g-2.jpg" alt="">
-            <h3 class="title">photos and events</h3>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/g-3.jpg" alt="">
-            <h3 class="title">photos and events</h3>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/g-4.jpg" alt="">
-            <h3 class="title">photos and events</h3>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/g-5.jpg" alt="">
-            <h3 class="title">photos and events</h3>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/g-6.jpg" alt="">
-            <h3 class="title">photos and events</h3>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/g-7.jpg" alt="">
-            <h3 class="title">photos and events</h3>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/g-8.jpg" alt="">
-            <h3 class="title">photos and events</h3>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/g-9.jpg" alt="">
-            <h3 class="title">photos and events</h3>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- gallery section ends -->
-
-<!-- price section starts  -->
-
-<section class="price" id="price">
-
-    <h1 class="heading"> our <span>price</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3 class="title">for birthdays</h3>
-            <h3 class="amount">$250.99</h3>
-            <ul>
-                <li><i class="fas fa-check"></i>full services</li>
-                <li> <i class="fas fa-check"></i> decorations </li>
-                <li> <i class="fas fa-check"></i> music and photos </li>
-                <li> <i class="fas fa-check"></i> food and drinks </li>
-                <li> <i class="fas fa-check"></i> invitation card </li>
-            </ul>
-            <a href="#" class="btn">check out</a>
-        </div>
-
-        <div class="box">
-            <h3 class="title">for weddings</h3>
-            <h3 class="amount">$450.99</h3>
-            <ul>
-                <li><i class="fas fa-check"></i>full services</li>
-                <li> <i class="fas fa-check"></i> decorations </li>
-                <li> <i class="fas fa-check"></i> music and photos </li>
-                <li> <i class="fas fa-check"></i> food and drinks </li>
-                <li> <i class="fas fa-check"></i> invitation card </li>
-            </ul>
-            <a href="#" class="btn">check out</a>
-        </div>
-
-        <div class="box">
-            <h3 class="title">for concerts</h3>
-            <h3 class="amount">$650.99</h3>
-            <ul>
-                <li><i class="fas fa-check"></i>full services</li>
-                <li> <i class="fas fa-check"></i> decorations </li>
-                <li> <i class="fas fa-check"></i> music and photos </li>
-                <li> <i class="fas fa-check"></i> food and drinks </li>
-                <li> <i class="fas fa-check"></i> invitation card </li>
-            </ul>
-            <a href="#" class="btn">check out</a>
-        </div>
-
-        <div class="box">
-            <h3 class="title">for others</h3>
-            <h3 class="amount">$850.99</h3>
-            <ul>
-                <li><i class="fas fa-check"></i>full services</li>
-                <li> <i class="fas fa-check"></i> decorations </li>
-                <li> <i class="fas fa-check"></i> music and photos </li>
-                <li> <i class="fas fa-check"></i> food and drinks </li>
-                <li> <i class="fas fa-check"></i> invitation card </li>
-            </ul>
-            <a href="#" class="btn">check out</a>
-        </div>
-
-    </div>
-
-
-</section>
-
-<!-- price section ends -->
-
-<!-- review section starts  -->
-
-<section class="reivew" id="review"> 
     
-    <h1 class="heading">client's <span>review</span></h1>
-
-    <div class="review-slider swiper-container">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="images/pic-1.png" alt="">
-                    <div class="user-info">
-                        <h3>john deo</h3>
-                        <span>happy clients</span>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
-            </div>
-
-            <div class="swiper-slide box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="images/pic-2.png" alt="">
-                    <div class="user-info">
-                        <h3>john deo</h3>
-                        <span>happy clients</span>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
-            </div>
-
-            <div class="swiper-slide box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="images/pic-3.png" alt="">
-                    <div class="user-info">
-                        <h3>john deo</h3>
-                        <span>happy clients</span>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
-            </div>
-
-            <div class="swiper-slide box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="images/pic-4.png" alt="">
-                    <div class="user-info">
-                        <h3>john deo</h3>
-                        <span>happy clients</span>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
-            </div>
-
-        </div>
-
+    <!-- View All Button -->
+    <div class="gallery-actions">
+      <button class="btn primary" id="view-all-btn">
+        <i class="fas fa-images"></i> View All Gallery
+      </button>
     </div>
+  </section>
 
-</section>
-
-<!-- review section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-    <h1 class="heading"> <span>contact</span> us </h1>
-
-    <form action="">
-        <div class="inputBox">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
-        </div>
-        <div class="inputBox">
-            <input type="number" placeholder="number">
-            <input type="text" placeholder="subject">
-        </div>
-        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="send message" class="btn">
-    </form>
-
-</section>
-
-<!-- contact section ends -->
-
-<!-- footer section starts  -->
-
-<section class="footer">
-
+  <!-- Materials -->
+  <section class="materials" id="materials">
+    <h2 class="heading animate-on-scroll">premium <span>materials</span></h2>
     <div class="box-container">
+      <div class="box animate-scale">
+        <i class="fas fa-tree" aria-hidden="true"></i>
+        <h3>Teak Wood</h3>
+        <p>Premium teak wood known for its durability, natural oils, and beautiful grain patterns. Perfect for outdoor furniture and high-end pieces.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-leaf" aria-hidden="true"></i>
+        <h3>Oak Wood</h3>
+        <p>Strong and durable oak with distinctive grain patterns. Ideal for furniture that needs to withstand daily use and last for generations.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-seedling" aria-hidden="true"></i>
+        <h3>Mahogany</h3>
+        <p>Rich, reddish-brown mahogany with excellent workability. Perfect for fine furniture, musical instruments, and decorative pieces.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-circle" aria-hidden="true"></i>
+        <h3>Walnut</h3>
+        <p>Beautiful dark walnut with rich chocolate tones and stunning grain patterns. Excellent for luxury furniture and decorative items.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-mountain" aria-hidden="true"></i>
+        <h3>Pine Wood</h3>
+        <p>Lightweight and versatile pine wood. Great for rustic furniture, shelving, and cost-effective projects without compromising quality.</p>
+      </div>
+      <div class="box animate-scale">
+        <i class="fas fa-star" aria-hidden="true"></i>
+        <h3>Exotic Woods</h3>
+        <p>Specialty exotic woods including rosewood, ebony, and bamboo. Used for unique, one-of-a-kind pieces and artistic creations.</p>
+      </div>
+    </div>
+  </section>
 
-        <div class="box">
-            <h3>branches</h3>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> jogeshwari </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> goregaon </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> navi mumbai </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> andheri </a>
+  <!-- Process -->
+  <section class="process" id="process">
+    <h2 class="heading animate-on-scroll">our <span>crafting process</span></h2>
+    <div class="process-container">
+      <div class="process-step animate-left">
+        <div class="step-number">01</div>
+        <div class="step-content">
+          <h3>Design & Planning</h3>
+          <p>We start with detailed consultations to understand your vision. Our designers create custom blueprints and 3D models to bring your ideas to life.</p>
         </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+      </div>
+      <div class="process-step animate-right">
+        <div class="step-number">02</div>
+        <div class="step-content">
+          <h3>Material Selection</h3>
+          <p>Careful selection of premium wood materials based on your project requirements. We source the finest woods from trusted suppliers.</p>
         </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-            <a href="#"> <i class="fas fa-envelope"></i> anasshaikh@gmail.com </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+      </div>
+      <div class="process-step animate-left">
+        <div class="step-number">03</div>
+        <div class="step-content">
+          <h3>Precision Crafting</h3>
+          <p>Our master craftsmen use traditional techniques combined with modern tools to create each piece with exceptional attention to detail.</p>
         </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+      <div class="process-step animate-right">
+        <div class="step-number">04</div>
+        <div class="step-content">
+          <h3>Finishing & Quality</h3>
+          <p>Expert sanding, staining, and finishing processes ensure each piece meets our high standards. Multiple quality checks before delivery.</p>
         </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Review -->
+  <section class="review" id="review">
+    <h2 class="heading animate-on-scroll">client's <span>review</span></h2>
+
+    <!-- Review Form -->
+    <div class="review-form-container">
+      <h3>Share Your Experience</h3>
+      <form id="reviewForm" class="review-form">
+        <div class="form-row">
+          <div class="input-group">
+            <input type="text" name="reviewerName" placeholder="Your Name" required>
+          </div>
+          <div class="input-group">
+            <input type="email" name="reviewerEmail" placeholder="Your Email" required>
+          </div>
+        </div>
+        
+        <div class="rating-container">
+          <label>Your Rating:</label>
+          <div class="star-rating" id="starRating">
+            <span class="star" data-rating="1">★</span>
+            <span class="star" data-rating="2">★</span>
+            <span class="star" data-rating="3">★</span>
+            <span class="star" data-rating="4">★</span>
+            <span class="star" data-rating="5">★</span>
+          </div>
+          <span class="rating-text">Click to rate</span>
+        </div>
+        
+        <div class="input-group">
+          <textarea name="reviewText" placeholder="Share your experience with our wood crafting services..." rows="4" required></textarea>
+        </div>
+        
+        <button type="submit" class="btn primary">
+          <i class="fas fa-paper-plane"></i> Submit Review
+        </button>
+      </form>
     </div>
 
-  
-</section>
+    <!-- Reviews Display -->
+    <div class="reviews-display">
+      <h3>What Our Clients Say</h3>
+      <div class="review-slider swiper-container" aria-label="Client reviews">
+        <div class="swiper-wrapper" id="reviewsContainer">
+          <!-- Default reviews -->
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-1.png" alt="Client 1" loading="lazy">
+              <div class="user-info">
+                <h4>John Deo</h4>
+                <span>Happy client</span>
+                <div class="review-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+              </div>
+            </div>
+            <p>Exceptional craftsmanship — the custom dining table exceeded our expectations. Beautiful work!</p>
+          </div>
 
-<!-- footer section ends -->
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-2.png" alt="Client 2" loading="lazy">
+              <div class="user-info">
+                <h4>Jane Smith</h4>
+                <span>Corporate client</span>
+                <div class="review-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+              </div>
+            </div>
+            <p>Professional service and incredible attention to detail. The wood restoration work was outstanding.</p>
+          </div>
 
-<!-- theme toggler  -->
-
-<div class="theme-toggler">
-
-    <div class="toggle-btn">
-        <i class="fas fa-cog"></i>
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-3.png" alt="Client 3" loading="lazy">
+              <div class="user-info">
+                <h4>Amita K</h4>
+                <span>Wedding client</span>
+                <div class="review-rating">
+                  <span class="stars">★★★★★</span>
+                </div>
+              </div>
+            </div>
+            <p>Beautiful handcrafted pieces that transformed our home. The quality is exceptional.</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <h3>choose color</h3>
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2 class="heading animate-on-scroll"><span>contact</span> us</h2>
 
+    <form id="contactForm" action="#" method="post" novalidate>
+      <div class="inputBox">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+      </div>
+
+      <div class="inputBox">
+        <input type="tel" name="phone" placeholder="Phone" required>
+        <input type="text" name="subject" placeholder="Subject">
+      </div>
+
+      <textarea name="message" placeholder="Your message" rows="6" required></textarea>
+      <input type="submit" value="Send Message" class="btn primary">
+    </form>
+    
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <div class="contact-grid">
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div class="contact-details">
+            <h4>Phone</h4>
+            <p><a href="tel:+918104316752">+91 81043 16752</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div class="contact-details">
+            <h4>Email</h4>
+            <p><a href="mailto:spcraftwood@gmail.com">spcraftwood@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-instagram"></i>
+          <div class="contact-details">
+            <h4>Instagram</h4>
+            <p><a href="https://www.instagram.com/sp_craftwood/" target="_blank">@sp_craftwood</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="contact-details">
+            <h4>Address</h4>
+            <p>Kharghar Sector 20, Plot No 15<br>Navi Mumbai, Maharashtra - 410210</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Gallery Modal -->
+  <div class="gallery-modal" id="gallery-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Complete Gallery</h3>
+        <button class="close-btn" id="close-gallery">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="all-gallery-grid" id="all-gallery-grid">
+          <!-- All gallery images will be loaded here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Theme toggler (kept minimal) -->
+  <div class="theme-toggler" aria-hidden="true">
+    <button class="toggle-btn" aria-label="Open color chooser"><i class="fas fa-cog"></i></button>
+    <h4>Choose color</h4>
     <div class="buttons">
-        <div class="theme-btn" style="background: #3867d6;"></div>
-        <div class="theme-btn" style="background: #f7b731;"></div>
-        <div class="theme-btn" style="background: #ff0033;"></div>
-        <div class="theme-btn" style="background: #20bf6b;"></div>
-        <div class="theme-btn" style="background: #fa8231;"></div>
-        <div class="theme-btn" style="background: #FC427B;"></div>
+      <button class="theme-btn" style="background:#3867d6" aria-label="Blue"></button>
+      <button class="theme-btn" style="background:#f7b731" aria-label="Yellow"></button>
+      <button class="theme-btn" style="background:#ff0033" aria-label="Red"></button>
+      <button class="theme-btn" style="background:#20bf6b" aria-label="Green"></button>
+      <button class="theme-btn" style="background:#fa8231" aria-label="Orange"></button>
+      <button class="theme-btn" style="background:#FC427B" aria-label="Pink"></button>
     </div>
+  </div>
 
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
+  <!-- Scripts -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
