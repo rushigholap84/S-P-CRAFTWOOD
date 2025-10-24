@@ -461,23 +461,86 @@ section{ padding:6rem 6%;}
 }
 .gallery-modal .modal-body{ padding:3rem; }
 .gallery-modal .all-gallery-grid{ 
-  display:grid; grid-template-columns:repeat(auto-fit, minmax(25rem, 1fr)); 
-  gap:2rem; max-height:70vh; overflow-y:auto;
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr)); 
+  gap:1.5rem; max-height:80vh; overflow-y:auto;
 }
 .gallery-modal .gallery-item{ 
   position:relative; border-radius:12px; overflow:hidden; 
-  background:var(--glass); border:1px solid rgba(255,255,255,0.05);
+  background:var(--glass); border:2px solid rgba(178,140,83,0.3);
+  transition:transform 300ms, box-shadow 300ms;
+  cursor:pointer;
+}
+.gallery-modal .gallery-item:hover{ 
+  transform:translateY(-4px) scale(1.02); 
+  box-shadow: 0 8px 25px rgba(178,140,83,0.3);
+  border-color: var(--main-color);
+}
+.gallery-modal .gallery-item img{ 
+  width:100%; height:25rem; object-fit:cover; display:block;
   transition:transform 300ms;
 }
-.gallery-modal .gallery-item:hover{ transform:translateY(-4px); }
-.gallery-modal .gallery-item img{ 
-  width:100%; height:20rem; object-fit:cover; display:block;
+.gallery-modal .gallery-item:hover img{ 
+  transform:scale(1.05);
 }
-.gallery-modal .gallery-item .item-title{ 
-  position:absolute; bottom:0; left:0; right:0; 
-  background:linear-gradient(180deg, transparent, rgba(0,0,0,0.8)); 
-  color:#fff; padding:2rem 1.5rem 1.5rem; 
-  font-size:1.6rem; font-weight:600;
+
+/* Image Popup */
+.image-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10001;
+  cursor: pointer;
+}
+
+.image-popup.active {
+  display: flex;
+}
+
+.image-popup-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+  border: 3px solid var(--main-color);
+}
+
+.image-popup img {
+  width: 100%;
+  height: auto;
+  max-height: 90vh;
+  object-fit: contain;
+  display: block;
+}
+
+.image-popup-close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 40px;
+  height: 40px;
+  background: var(--main-color);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+  transition: transform 300ms;
+}
+
+.image-popup-close:hover {
+  transform: scale(1.1);
 }
 
 /* Price */

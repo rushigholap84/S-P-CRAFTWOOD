@@ -111,26 +111,63 @@ const allGalleryGrid = document.getElementById('all-gallery-grid');
 
 // All gallery images data
 const allGalleryImages = [
-  { src: 'images/IMG_6202.JPG', title: 'Custom Dining Table', alt: 'Wood Crafting 1' },
-  { src: 'images/g-2.jpg', title: 'Handcrafted Chair', alt: 'Wood Crafting 2' },
-  { src: 'images/g-3.jpg', title: 'Wooden Cabinet', alt: 'Wood Crafting 3' },
-  { src: 'images/g-4.jpg', title: 'Decorative Panel', alt: 'Wood Crafting 4' },
-  { src: 'images/g-5.jpg', title: 'Cutting Board', alt: 'Wood Crafting 5' },
-  { src: 'images/g-6.jpg', title: 'Photo Frame', alt: 'Wood Crafting 6' },
-  { src: 'images/g-7.jpg', title: 'Wooden Shelf', alt: 'Wood Crafting 7' },
-  { src: 'images/g-8.jpg', title: 'Jewelry Box', alt: 'Wood Crafting 8' },
-  { src: 'images/g-9.jpg', title: 'Serving Tray', alt: 'Wood Crafting 9' },
-  { src: 'images/slide-1.jpg', title: 'Wooden Coffee Table', alt: 'Wood Crafting 10' },
-  { src: 'images/slide-2.jpg', title: 'Custom Bookshelf', alt: 'Wood Crafting 11' },
-  { src: 'images/slide-3.jpg', title: 'Handcrafted Bench', alt: 'Wood Crafting 12' },
-  { src: 'images/slide-4.jpg', title: 'Wooden Wall Art', alt: 'Wood Crafting 13' },
-  { src: 'images/slide-5.jpg', title: 'Decorative Bowl', alt: 'Wood Crafting 14' },
-  { src: 'images/slide-6.jpg', title: 'Custom Headboard', alt: 'Wood Crafting 15' },
-  { src: 'images/pic-1.png', title: 'Wooden Clock', alt: 'Wood Crafting 16' },
-  { src: 'images/pic-2.png', title: 'Storage Box', alt: 'Wood Crafting 17' },
-  { src: 'images/pic-3.png', title: 'Decorative Vase', alt: 'Wood Crafting 18' },
-  { src: 'images/pic-4.png', title: 'Wooden Lamp', alt: 'Wood Crafting 19' },
-  { src: 'images/about-img.jpg', title: 'Workshop Showcase', alt: 'Wood Crafting 20' }
+  { src: 'images/IMG_6202.JPG', title: 'S P CRAFTWOOD Logo', alt: 'S P CRAFTWOOD Logo' },
+  { src: 'images/craftwork-01.jpeg', title: 'Premium Wood Crafting', alt: 'Wood Crafting 1' },
+  { src: 'images/craftwork-02.jpeg', title: 'Handcrafted Excellence', alt: 'Wood Crafting 2' },
+  { src: 'images/craftwork-03.jpeg', title: 'Custom Furniture', alt: 'Wood Crafting 3' },
+  { src: 'images/craftwork-04.jpeg', title: 'Wood Artistry', alt: 'Wood Crafting 4' },
+  { src: 'images/craftwork-05.jpeg', title: 'Decorative Woodwork', alt: 'Wood Crafting 5' },
+  { src: 'images/craftwork-06.jpeg', title: 'Artisan Craftwork', alt: 'Wood Crafting 6' },
+  { src: 'images/craftwork-07.jpeg', title: 'Handcrafted Furniture', alt: 'Wood Crafting 7' },
+  { src: 'images/craftwork-08.jpeg', title: 'Custom Woodwork', alt: 'Wood Crafting 8' },
+  { src: 'images/craftwork-09.jpeg', title: 'Premium Wood Art', alt: 'Wood Crafting 9' },
+  { src: 'images/craftwork-10.jpeg', title: 'Decorative Pieces', alt: 'Wood Crafting 10' },
+  { src: 'images/craftwork-11.jpeg', title: 'Wooden Accessories', alt: 'Wood Crafting 11' },
+  { src: 'images/craftwork-12.jpeg', title: 'Custom Designs', alt: 'Wood Crafting 12' },
+  { src: 'images/craftwork-13.jpeg', title: 'Wood Restoration', alt: 'Wood Crafting 13' },
+  { src: 'images/craftwork-14.jpeg', title: 'Artisan Craftwork', alt: 'Wood Crafting 14' },
+  { src: 'images/craftwork-15.jpeg', title: 'About S P CRAFTWOOD', alt: 'Wood Crafting 15' },
+  { src: 'images/craftwork-16.jpeg', title: 'Client Showcase', alt: 'Wood Crafting 16' },
+  { src: 'images/craftwork-17.jpeg', title: 'Professional Work', alt: 'Wood Crafting 17' },
+  { src: 'images/craftwork-18.jpeg', title: 'Beautiful Craftwork', alt: 'Wood Crafting 18' },
+  { src: 'images/craftwork-19.jpeg', title: 'Wooden Masterpieces', alt: 'Wood Crafting 19' },
+  { src: 'images/craftwork-20.jpeg', title: 'Timeless Craftwork', alt: 'Wood Crafting 20' },
+  { src: 'images/craftwork-21.jpeg', title: 'Exquisite Woodwork', alt: 'Wood Crafting 21' },
+  { src: 'images/craftwork-22.jpeg', title: 'Master Craftsmanship', alt: 'Wood Crafting 22' },
+  { src: 'images/craftwork-23.jpeg', title: 'Fine Wood Art', alt: 'Wood Crafting 23' },
+  { src: 'images/craftwork-24.jpeg', title: 'Custom Creations', alt: 'Wood Crafting 24' },
+  { src: 'images/craftwork-25.jpeg', title: 'Wooden Treasures', alt: 'Wood Crafting 25' },
+  { src: 'images/craftwork-26.jpeg', title: 'Artisan Excellence', alt: 'Wood Crafting 26' },
+  { src: 'images/craftwork-27.jpeg', title: 'Premium Craftwork', alt: 'Wood Crafting 27' },
+  { src: 'images/craftwork-28.jpeg', title: 'Handcrafted Beauty', alt: 'Wood Crafting 28' },
+  { src: 'images/craftwork-29.jpeg', title: 'Wood Art Mastery', alt: 'Wood Crafting 29' },
+  { src: 'images/craftwork-30.jpeg', title: 'Timeless Woodwork', alt: 'Wood Crafting 30' },
+  { src: 'images/craftwork-31.jpeg', title: 'Elegant Craftwork', alt: 'Wood Crafting 31' },
+  { src: 'images/craftwork-32.jpeg', title: 'Wooden Excellence', alt: 'Wood Crafting 32' },
+  { src: 'images/craftwork-33.jpeg', title: 'Artisan Masterpieces', alt: 'Wood Crafting 33' },
+  { src: 'images/craftwork-34.jpeg', title: 'Custom Wood Art', alt: 'Wood Crafting 34' },
+  { src: 'images/craftwork-35.jpeg', title: 'Premium Woodwork', alt: 'Wood Crafting 35' },
+  { src: 'images/craftwork-36.jpeg', title: 'Handcrafted Perfection', alt: 'Wood Crafting 36' },
+  { src: 'images/craftwork-37.jpeg', title: 'Wood Artistry', alt: 'Wood Crafting 37' },
+  { src: 'images/craftwork-38.jpeg', title: 'Exquisite Furniture', alt: 'Wood Crafting 38' },
+  { src: 'images/craftwork-39.jpeg', title: 'Master Woodwork', alt: 'Wood Crafting 39' },
+  { src: 'images/craftwork-40.jpeg', title: 'Beautiful Craftwork', alt: 'Wood Crafting 40' },
+  { src: 'images/craftwork-41.jpeg', title: 'Wooden Art', alt: 'Wood Crafting 41' },
+  { src: 'images/craftwork-42.jpeg', title: 'Custom Excellence', alt: 'Wood Crafting 42' },
+  { src: 'images/craftwork-43.jpeg', title: 'Premium Artistry', alt: 'Wood Crafting 43' },
+  { src: 'images/craftwork-44.jpeg', title: 'Handcrafted Treasures', alt: 'Wood Crafting 44' },
+  { src: 'images/craftwork-45.jpeg', title: 'Wood Mastery', alt: 'Wood Crafting 45' },
+  { src: 'images/craftwork-46.jpeg', title: 'Artisan Beauty', alt: 'Wood Crafting 46' },
+  { src: 'images/craftwork-47.jpeg', title: 'Exquisite Woodwork', alt: 'Wood Crafting 47' },
+  { src: 'images/craftwork-48.jpeg', title: 'Custom Masterpieces', alt: 'Wood Crafting 48' },
+  { src: 'images/craftwork-49.jpeg', title: 'Wood Art Excellence', alt: 'Wood Crafting 49' },
+  { src: 'images/craftwork-50.jpeg', title: 'Premium Craftsmanship', alt: 'Wood Crafting 50' },
+  { src: 'images/craftwork-51.jpeg', title: 'Handcrafted Art', alt: 'Wood Crafting 51' },
+  { src: 'images/craftwork-52.jpeg', title: 'Wooden Mastery', alt: 'Wood Crafting 52' },
+  { src: 'images/craftwork-53.jpeg', title: 'Artisan Perfection', alt: 'Wood Crafting 53' },
+  { src: 'images/craftwork-54.jpeg', title: 'Custom Wood Art', alt: 'Wood Crafting 54' },
+  { src: 'images/craftwork-55.jpeg', title: 'Exquisite Craftwork', alt: 'Wood Crafting 55' },
+  { src: 'images/craftwork-56.jpeg', title: 'Master Woodwork', alt: 'Wood Crafting 56' }
 ];
 
 // Load all gallery images into modal
@@ -141,8 +178,19 @@ function loadAllGalleryImages() {
     galleryItem.className = 'gallery-item';
     galleryItem.innerHTML = `
       <img src="${image.src}" alt="${image.alt}" loading="lazy">
-      <div class="item-title">${image.title}</div>
     `;
+    
+    // Add click/tap event for popup
+    galleryItem.addEventListener('click', () => {
+      showImagePopup(image.src, image.alt);
+    });
+    
+    // Add touch events for mobile
+    galleryItem.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      showImagePopup(image.src, image.alt);
+    });
+    
     allGalleryGrid.appendChild(galleryItem);
   });
 }
@@ -179,6 +227,45 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && galleryModal && galleryModal.classList.contains('active')) {
     galleryModal.classList.remove('active');
     document.body.style.overflow = 'auto';
+  }
+});
+
+// Image Popup functionality
+const imagePopup = document.getElementById('image-popup');
+const popupImage = document.getElementById('popup-image');
+const closePopupBtn = document.getElementById('close-popup');
+
+// Show image popup
+function showImagePopup(src, alt) {
+  popupImage.src = src;
+  popupImage.alt = alt;
+  imagePopup.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+// Close image popup
+function closeImagePopup() {
+  imagePopup.classList.remove('active');
+  document.body.style.overflow = 'auto';
+}
+
+// Close popup events
+if (closePopupBtn) {
+  closePopupBtn.addEventListener('click', closeImagePopup);
+}
+
+if (imagePopup) {
+  imagePopup.addEventListener('click', (e) => {
+    if (e.target === imagePopup) {
+      closeImagePopup();
+    }
+  });
+}
+
+// Close popup with Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && imagePopup && imagePopup.classList.contains('active')) {
+    closeImagePopup();
   }
 });
 
