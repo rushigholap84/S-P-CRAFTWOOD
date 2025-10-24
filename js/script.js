@@ -230,7 +230,7 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-// Image Popup functionality
+/* Image Popup functionality
 const imagePopup = document.getElementById('image-popup');
 const popupImage = document.getElementById('popup-image');
 const closePopupBtn = document.getElementById('close-popup');
@@ -267,7 +267,7 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && imagePopup && imagePopup.classList.contains('active')) {
     closeImagePopup();
   }
-});
+});*/
 
 // Review System
 let currentRating = 0;
